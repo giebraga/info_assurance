@@ -1,4 +1,11 @@
-# Step-by-Step Documentation
+## **Information Assurance and Security**
+---
+### Group Members:
+- Braga, Angelika V.
+- Villamer, Jemima R.
+---
+## **_<center>Raspberry Pi</center>_**
+#### **_<center>Documentation</center>_**# Step-by-Step Documentation
 ### 1. Prepare and Install Headless Raspbian OS in Raspberry Pi
 * First install [Raspberry Pi.](https://www.raspberrypi.com/software/)
 ### 2. Connecting to Raspberry Pi via SSH using the terminal
