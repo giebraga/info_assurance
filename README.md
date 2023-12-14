@@ -60,17 +60,58 @@
  ![377147723_325086653638346_8268673517986389737_n](https://github.com/CaseinBrt/Documentation/assets/145450481/109268e6-f898-43c4-969b-05a48cd369d1)
 
  ---
-### 2. Connecting to Raspberry Pi via SSH using the terminal
-* ssh <username>@<hostname>
-* sudo apt update
-* sudo apt upgrade
-### 3. Deploying LAMP (Linux Apache MySQL PHP) Stack in raspberry Pi
-* sudo apt install apache2
-* sudo apt install mariadb-server
-* sudo mysql_secure_installation
-* sudo apt install php libapache2-mod-php php-mysql
-* sudo apt-get install php*
-* sudo apt install phpmyadmin
-### 4. Enabling and controlling Raspberry Pi using VNC
+### _**Step 2:**_ Connecting to Raspberry Pi via SSH using the terminal.
+####   **Enter the following command in the terminal:**
+- **_ssh username@hostname (e.g. Group4@g172.67.90.18)_**
+  
+- **_sudo apt update_**
+  
+- **_sudo apt upgrade_**
+ ---
+ 
+### _**Step 3:**_ Deploying LAMP (Linux Apache MySQL PHP) Stack in raspberry Pi.**
+#### Enter the following commands into the command prompt that is linked to the Raspberry Pia over SSH in order to install the stack.
+1. **_sudo apt install apache2_**
+   
+2. **_sudo apt install mariadb-server_**
+   
+3. **_sudo mysql_secure_installation_**
+   
+4. **_sudo apt install php libapache2-mod-php php-mysql_**
+   
+5. **_sudo apt-get install php_**
+    
+6. **_sudo apt install phpmyadmin_**
+    
+ ---
+### _**Step 4:**_ Enabling and controlling **_Raspberry Pi_** using **_VNC_**.
+
 * sudo raspi-config
+
++ Install RealVNC® Viewer.
+ + First, we must activate VNC on the OS by entering the **_sudo raspi-config_** command into the Raspberry Pi Configuration Tool before launching VNC on the device of our choice.
+ + Using the arrows, navigate through **"Interface Options"** > **"VNC"**, choose **_"Yes"_**, and then click **_"OK"_**.
+![368033655_1418038518789351_3463345382618325401_n](https://github.com/CaseinBrt/Documentation/assets/145450481/4af998ad-f811-4419-adf5-0d2f4eb4ac9e)
+
+   ---
+   
+    ![372318563_3528511977430546_4739800732196631453_n](https://github.com/CaseinBrt/Documentation/assets/145450481/da9db631-279c-44c0-8ef4-eca239f72301)
+
+   ---
+
+   ![401177787_1085340499142779_5373566576894757585_n](https://github.com/CaseinBrt/Documentation/assets/145450481/93372659-9e1a-45a1-8b69-13f8eba8e3ef)
+
+   ---
+   
+    ![371533130_1424334041484770_378061606160522842_n](https://github.com/CaseinBrt/Documentation/assets/145450481/57f2bc8b-df92-4b63-a0b8-3184b3fa7932)
+
+   ---
+   
+ > In this section, we need to boot up the device and launch RealVNC Viewer. In the search bar type the _private IP address_. In the event that the Raspberry Pi screen appears on **RealVNC**, it indicates that the connection and control have already been established on the **_Raspberry Pi_**.
+
+
+  ---
+  
+  ![393161962_351181004269522_416777685802602515_n](https://github.com/CaseinBrt/Documentation/assets/145450481/e2fb159e-35ed-4e5e-a1ce-800f7b309d28)
+
 
