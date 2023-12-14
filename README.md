@@ -70,3 +70,4 @@
 * sudo apt install phpmyadmin
 ### 4. Enabling and controlling Raspberry Pi using VNC
 * sudo raspi-config
+
