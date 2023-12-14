@@ -86,10 +86,10 @@
  ---
 ### _**Step 4:**_ Enabling and controlling **_Raspberry Pi_** using **_VNC_**.
 
-* sudo raspi-config
-
-+ Install RealVNC® Viewer.
+- Download and install [**_RealVNC® Viewer._**](https://www.realvnc.com/en/connect/download/viewer/)
  + First, we must activate VNC on the OS by entering the **_sudo raspi-config_** command into the Raspberry Pi Configuration Tool before launching VNC on the device of our choice.
+
+   
  + Using the arrows, navigate through **"Interface Options"** > **"VNC"**, choose **_"Yes"_**, and then click **_"OK"_**.
 ![368033655_1418038518789351_3463345382618325401_n](https://github.com/CaseinBrt/Documentation/assets/145450481/4af998ad-f811-4419-adf5-0d2f4eb4ac9e)
 
