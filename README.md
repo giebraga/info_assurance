@@ -62,7 +62,7 @@
  ---
 ### _**Step 2:**_ Connecting to Raspberry Pi via SSH using the terminal.
 ####   **Enter the following command in the terminal:**
-- **_ssh username@hostname (e.g. Group4@g172.67.90.18)_**
+- **_ssh username@hostname (e.g. Group4@g172.18.90.149)_**
   
   ![1](https://github.com/giebraga/info_assurance/assets/145672252/0b57c49c-ed74-428a-af88-6b147951b8b9)
 
@@ -107,31 +107,53 @@
 ### _**Step 4:**_ Enabling and controlling **_Raspberry Pi_** using **_VNC_**.
 
 - Download and install [**_RealVNC® Viewer._**](https://www.realvnc.com/en/connect/download/viewer/)
- + First, we must activate VNC on the OS by entering the **_sudo raspi-config_** command into the Raspberry Pi Configuration Tool before launching VNC on the device of our choice.
+
+  ![real](https://github.com/giebraga/info_assurance/assets/145672252/c0147b2a-50d7-414d-9bcf-5b4c3806e5ed)  
+---
+  ![22](https://github.com/giebraga/info_assurance/assets/145672252/14242097-82f5-4190-92f9-01cac762bfda)
+
+
+ - Then, we must activate VNC on the OS by entering the **_sudo raspi-config_** command into the Raspberry Pi Configuration Tool before launching VNC.
+
+  ![15](https://github.com/giebraga/info_assurance/assets/145672252/236afd5f-8821-434f-92c4-fcdd5a4d6ddb)  
+
+  
+  ![16](https://github.com/giebraga/info_assurance/assets/145672252/68527d37-5432-448d-9f68-86c47c9986cb)
 
    
- + Using the arrows, navigate through **"Interface Options"** > **"VNC"**, choose **_"Yes"_**, and then click **_"OK"_**.
-![368033655_1418038518789351_3463345382618325401_n](https://github.com/CaseinBrt/Documentation/assets/145450481/4af998ad-f811-4419-adf5-0d2f4eb4ac9e)
+ + Using the arrows, navigate through **"Interface Options"** > **"VNC"** > **_"Yes"_**, and then click **_"OK"_**.
+
+   ![18](https://github.com/giebraga/info_assurance/assets/145672252/90baea92-9030-4a4d-a0c5-a26922cc90b6)
 
    ---
    
-    ![372318563_3528511977430546_4739800732196631453_n](https://github.com/CaseinBrt/Documentation/assets/145450481/da9db631-279c-44c0-8ef4-eca239f72301)
+   ![19](https://github.com/giebraga/info_assurance/assets/145672252/905037ac-0d61-4ce2-9e61-8dee0b86a181)
+
 
    ---
 
-   ![401177787_1085340499142779_5373566576894757585_n](https://github.com/CaseinBrt/Documentation/assets/145450481/93372659-9e1a-45a1-8b69-13f8eba8e3ef)
+   ![20](https://github.com/giebraga/info_assurance/assets/145672252/58f4a231-9245-45f5-9bf7-a01763fda52c)
 
-   ---
-   
-    ![371533130_1424334041484770_378061606160522842_n](https://github.com/CaseinBrt/Documentation/assets/145450481/57f2bc8b-df92-4b63-a0b8-3184b3fa7932)
 
    ---
    
- > In this section, we need to boot up the device and launch RealVNC Viewer. In the search bar type the _private IP address_. In the event that the Raspberry Pi screen appears on **RealVNC**, it indicates that the connection and control have already been established on the **_Raspberry Pi_**.
+   ![21](https://github.com/giebraga/info_assurance/assets/145672252/8ee577d8-28fb-4afc-a6d0-086e09b4782d)
 
+
+   ---
+   
+ * Launch **RealVNC Viewer**. In the search bar type your _private IP address_ then enter your username and password.
+
+   ![23](https://github.com/giebraga/info_assurance/assets/145672252/d8c6bfed-8d9e-4be4-b429-572e61c8caac)
 
   ---
   
-  ![393161962_351181004269522_416777685802602515_n](https://github.com/CaseinBrt/Documentation/assets/145450481/e2fb159e-35ed-4e5e-a1ce-800f7b309d28)
+  ![393161962_351181004269522_416777685802602515_n](https://github.com/CaseinBrt/Documentation/assets/145450481/e2fb159e-35ed-4e5e-a1ce-800f7b309d28)  
+
+ > The connection and control have already been established on the **_Raspberry Pi_**.
+
+   ![24](https://github.com/giebraga/info_assurance/assets/145672252/a9efaacb-acc1-44d0-b23d-62049a08d230)
+
+ 
 
 
