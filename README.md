@@ -150,7 +150,7 @@
   
   ![393161962_351181004269522_416777685802602515_n](https://github.com/CaseinBrt/Documentation/assets/145450481/e2fb159e-35ed-4e5e-a1ce-800f7b309d28)  
 
- > The connection and control have already been established on the **_Raspberry Pi_**.
+ #### **The connection and control have already been established on the **_Raspberry Pi_**.**
 
    ![24](https://github.com/giebraga/info_assurance/assets/145672252/a9efaacb-acc1-44d0-b23d-62049a08d230)
 
