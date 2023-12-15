@@ -64,24 +64,44 @@
 ####   **Enter the following command in the terminal:**
 - **_ssh username@hostname (e.g. Group4@g172.67.90.18)_**
   
+  ![1](https://github.com/giebraga/info_assurance/assets/145672252/0b57c49c-ed74-428a-af88-6b147951b8b9)
+
 - **_sudo apt update_**
+
+  ![2](https://github.com/giebraga/info_assurance/assets/145672252/c8d513ea-cb68-4209-8240-a0c3aa5d9c3d)
   
 - **_sudo apt upgrade_**
+
+  ![3](https://github.com/giebraga/info_assurance/assets/145672252/f4a6d03a-88fd-40aa-868b-7a4fabafb1b6)
+
  ---
  
-### _**Step 3:**_ Deploying LAMP (Linux Apache MySQL PHP) Stack in raspberry Pi.**
+### _**Step 3:**_ Deploying LAMP (Linux Apache MySQL PHP) Stack in raspberry Pi.
 #### Enter the following commands into the command prompt that is linked to the Raspberry Pia over SSH in order to install the stack.
 1. **_sudo apt install apache2_**
+
+   ![4](https://github.com/giebraga/info_assurance/assets/145672252/1d1e2a99-8ddb-4e19-b8da-bc4aaf1776ad)
+
    
-2. **_sudo apt install mariadb-server_**
+3. **_sudo apt install mariadb-server_**
+
+   ![8](https://github.com/giebraga/info_assurance/assets/145672252/8f76d992-d63f-4432-9735-66b197d67c0f)
+
+5. **_sudo mysql_secure_installation_**
+
+   ![9](https://github.com/giebraga/info_assurance/assets/145672252/c33a8e50-515b-4d09-8959-5c0781496dcb)
    
-3. **_sudo mysql_secure_installation_**
+7. **_sudo apt install php libapache2-mod-php php-mysql_**
+
+   ![11](https://github.com/giebraga/info_assurance/assets/145672252/69a2d149-0d5d-4698-a773-289589fa815b)
    
-4. **_sudo apt install php libapache2-mod-php php-mysql_**
-   
-5. **_sudo apt-get install php_**
-    
-6. **_sudo apt install phpmyadmin_**
+9. **_sudo apt-get install php_**
+
+    ![13](https://github.com/giebraga/info_assurance/assets/145672252/bbb11776-a686-4d0a-bddd-9216e5612b2d)
+
+11. **_sudo apt install phpmyadmin_**
+
+    ![14](https://github.com/giebraga/info_assurance/assets/145672252/c42462aa-4fa4-47ce-a9a2-a83000368551)
     
  ---
 ### _**Step 4:**_ Enabling and controlling **_Raspberry Pi_** using **_VNC_**.
